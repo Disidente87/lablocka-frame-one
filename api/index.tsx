@@ -23,7 +23,7 @@ app.frame('/main', (c) => {
   const {  } = c
 
   return c.res({
-    image: "https://lablocka-frame-one.vercel.app/images/1.jpg",
+    image: "https://lablocka-frame-one.vercel.app/images/1g.jpg",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button action='/error'>Manolo</Button>,
@@ -54,7 +54,7 @@ app.frame('/work', (c) => {
   const {  } = c
 
   return c.res({
-    image: "https://lablocka-frame-one.vercel.app/images/2.jpg",
+    image: "https://lablocka-frame-one.vercel.app/images/2g.jpg",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button action='/error'>Polkadot</Button>,
@@ -71,10 +71,10 @@ app.frame('/buy', (c) => {
   const {  } = c
 
   return c.res({
-    image: "https://lablocka-frame-one.vercel.app/images/3.jpg",
+    image: "https://lablocka-frame-one.vercel.app/images/3g.jpg",
     intents: [
       //<TextInput placeholder="Enter cu" />,
-      <Button action='/error'>La Tia</Button>,
+      <Button action='/error'>Tia Piolin</Button>,
       <Button action='/error'>Shillardo</Button>,
       <Button action='/last'>Bando.cool</Button>,
       <Button action='/error'>Tienda</Button>,
@@ -88,7 +88,7 @@ app.frame('/last', (c) => {
   const {  } = c
 
   return c.res({
-    image: "https://lablocka-frame-one.vercel.app/images/4.jpg",
+    image: "https://lablocka-frame-one.vercel.app/images/4g.jpg",
     intents: [
       //<TextInput placeholder="Enter cu" />,
       <Button.Link href='https://giveth.io/es/project/la-blocka-animated-episode-of-arbitrum-in-la-blocka?apcid=00652c2c0f7f9fb81c6adc00' >Giveth</Button.Link>,
