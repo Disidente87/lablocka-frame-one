@@ -13,7 +13,7 @@ import { handle } from 'frog/vercel'
 export const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
-  hub: pinata(),
+  //hub: pinata(),
   title: 'La BLocka',
   // Supply a Hub to enable frame verification.
   // hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
@@ -74,10 +74,10 @@ app.frame('/buy', (c) => {
     image: "https://lablocka-frame-one.vercel.app/images/3.jpg",
     intents: [
       //<TextInput placeholder="Enter cu" />,
-      <Button action='/error'>con la tía piolín</Button>,
-      <Button action='/error'>Con Shillardo Ponzi</Button>,
-      <Button action='/last'>En Bando.cool</Button>,
-      <Button action='/error'>En la tienda de la esquina</Button>,
+      <Button action='/error'>La Tia</Button>,
+      <Button action='/error'>Shillardo</Button>,
+      <Button action='/last'>Bando.cool</Button>,
+      <Button action='/error'>Tienda</Button>,
     
       //status === 'response' && <Button.Reset>Reset</Button.Reset>,
     ],
